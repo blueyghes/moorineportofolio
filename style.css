@@ -921,7 +921,7 @@ background:#0b1220;
 .dark-mode h1,
 .dark-mode h2,
 .dark-mode h3{
-color:#ffffff;
+color:white;
 }
 
 .dark-mode p{
@@ -988,33 +988,6 @@ color:white;
 
 .dark-mode footer{
 background:#020617;
-}
-
-.dark-toggle{
-
-position:fixed;
-
-bottom:95px;
-right:25px;
-
-width:55px;
-height:55px;
-
-border:none;
-border-radius:50%;
-
-background:#001f54;
-color:white;
-
-font-size:22px;
-
-cursor:pointer;
-
-z-index:999;
-
-box-shadow:
-0 5px 15px rgba(0,0,0,.2);
-
 }
 
 body,

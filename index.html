@@ -1,48 +1,291 @@
 <!DOCTYPE html>
-<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Gheza Photography</title>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Moorine's Photography Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head><body>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
 <nav class="navbar">
-<div class="logo">Gheza Photography</div>
-<ul>
-<li><a href="#home">Beranda</a></li>
-<li><a href="#portfolio">Portofolio</a></li>
-<li><a href="#about">Tentang</a></li>
-<li><a href="#contact">Kontak</a></li>
-</ul>
-<div id="authArea"><button onclick="goLogin()" class="login-btn">Login</button></div>
+
+    <div class="logo">
+
+        <img src="assets/logo.png" alt="Logo">
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#portfolio">Portofolio</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#contact">Kontak</a></li>
+
+    </ul>
+
+    <div id="authArea">
+
+        <button onclick="goLogin()" class="login-btn">
+            Login dulu yuk
+        </button>
+
+    </div>
+
 </nav>
 
+<!-- HERO -->
+
 <section id="home" class="hero">
-<h1>Capture Moments, Tell Stories</h1>
-<p>Portfolio Fotografi Modern</p>
-<button class="cta">Explore</button>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <h1>
+            Capture Moments.
+            <span>Create Stories.</span>
+        </h1>
+
+        <p>
+            Moorine's by Gheza
+        </p>
+
+        <a href="#portfolio" class="hero-btn">
+            Jelajahi foto-fotoku yuk!
+        </a>
+
+    </div>
+
 </section>
 
-<section id="portfolio">
-<h2>Portfolio</h2>
-<div class="gallery">
-<img src="assets/foto1.jpg"><img src="assets/foto2.jpg"><img src="assets/foto3.jpg">
-<img src="assets/foto4.jpg"><img src="assets/foto5.jpg"><img src="assets/foto6.jpg">
+<!-- STATS -->
+
+<section class="stats">
+
+    <div class="stat-box">
+
+        <h2 class="counter" data-target="150">
+            5
+        </h2>
+
+        <p>Projects</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <h2 class="counter" data-target="300">
+            350
+        </h2>
+
+        <p>Photos</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <h2 class="counter" data-target="25">
+            3
+        </h2>
+
+        <p>Clients</p>
+
+    </div>
+
+</section>
+
+<!-- PORTFOLIO -->
+
+<section id="portfolio" class="portfolio">
+
+    <h2>Portfolioku!</h2>
+
+    <div class="filter-buttons">
+
+        <button class="filter-btn active">
+            All
+        </button>
+
+        <button class="filter-btn">
+            Portrait
+        </button>
+
+        <button class="filter-btn">
+            Event
+        </button>
+
+        <button class="filter-btn">
+            Landscape
+        </button>
+
+        <button class="filter-btn">
+            Street
+        </button>
+
+    </div>
+
+    <div class="gallery">
+
+        <img src="assets/foto1.jpg" alt="">
+        <img src="assets/foto2.jpg" alt="">
+        <img src="assets/foto3.jpg" alt="">
+        <img src="assets/foto4.jpg" alt="">
+        <img src="assets/foto5.jpg" alt="">
+        <img src="assets/foto6.jpg" alt="">
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+    <div class="about-image">
+
+        <img src="assets/profile.jpg" alt="Profile">
+
+    </div>
+
+    <div class="about-content">
+
+        <h2>Tentang Pemilik</h2>
+
+        <p>
+
+            Halo, saya Gheza.
+
+            Seorang fotografer yang berfokus pada
+            portrait photography, event photography,
+            landscape photography, dan visual storytelling.
+
+        </p>
+
+        <div class="skills">
+
+            <span>Photography</span>
+            <span>Editing</span>
+            <span>Videography</span>
+            <span>Creative Design</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- VIDEO -->
+
+<section class="youtube">
+
+    <h2>Video Opening</h2>
+
+    <div class="video-container">
+
+        <iframe
+        src="https://www.youtube.com/embed/jNQXAC9IVRw"
+        allowfullscreen>
+        </iframe>
+
+    </div>
+
+</section>
+
+<!-- MAP -->
+
+<section class="maps">
+
+    <h2>Lokasi Studio</h2>
+
+    <div class="map-container">
+
+        <iframe
+        src="https://www.google.com/maps/embed?pb="
+        loading="lazy"
+        allowfullscreen>
+        </iframe>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+    <h2>Hubungi aku jika kamu tertarik!</h2>
+
+    <div class="social-links">
+
+        <a href="https://instagram.com/ghes2z"
+        target="_blank">
+
+            <i class="fab fa-instagram"></i>
+
+        </a>
+
+        <a href="https://twitter.com/ghes2z"
+        target="_blank">
+
+            <i class="fab fa-x-twitter"></i>
+
+        </a>
+
+        <a href="mailto:gegeworks16@gmail.com">
+
+            <i class="fas fa-envelope"></i>
+
+        </a>
+
+        <a href="https://wa.me/6285701761538"
+        target="_blank">
+
+            <i class="fab fa-whatsapp"></i>
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+
+        © 2026 Moorine's Photography.
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+
+<!-- LIGHTBOX -->
+
+<div class="lightbox">
+
+    <span class="close-lightbox">&times;</span>
+
+    <img class="lightbox-img">
+
 </div>
-</section>
-
-<section id="about"><h2>About Me</h2><p>Photographer, storyteller, and visual creator.</p></section>
-
-<section><h2>Video</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw"></iframe>
-</section>
-
-<section id="contact"><h2>Contact</h2>
-<div class="socials">
-<a href="#"><i class="fab fa-instagram"></i></a>
-<a href="#"><i class="fab fa-x-twitter"></i></a>
-<a href="mailto:user@gmail.com"><i class="fas fa-envelope"></i></a>
-</div>
-</section>
 
 <script src="script.js"></script>
 <script src="login/js/welcome.js"></script>
-</body></html>
+
+</body>
+</html>

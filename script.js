@@ -201,19 +201,18 @@ backToTop.addEventListener(
    DARK MODE
 ========================= */
 
-const darkButton = document.createElement("button");
+const darkButton =
+document.createElement("button");
 
 darkButton.innerHTML = "🌙";
 
-darkButton.classList.add("dark-toggle");
-
-darkButton.style.bottom = "95px";
+darkButton.classList.add(
+"dark-toggle"
+);
 
 document.body.appendChild(
 darkButton
 );
-
-/* cek mode sebelumnya */
 
 if(
 localStorage.getItem("darkmode")

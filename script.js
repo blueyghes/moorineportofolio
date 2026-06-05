@@ -201,8 +201,7 @@ backToTop.addEventListener(
    DARK MODE
 ========================= */
 
-const darkButton =
-document.createElement("button");
+const darkButton = document.createElement("button");
 
 darkButton.innerHTML = "🌙";
 

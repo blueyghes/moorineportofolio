@@ -627,25 +627,6 @@ color:white;
 
 }
 
-
-/* =========================
-   FOOTER
-========================= */
-
-footer{
-
-background:#001f54;
-
-padding:25px;
-
-text-align:center;
-
-color:white;
-
-font-size:14px;
-
-}
-
 /* =========================
    DARK MODE FIX
 ========================= */
@@ -766,6 +747,25 @@ transition:.3s;
 .dark-toggle:hover{
 
 transform:translateY(-5px);
+
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+
+background:#001f54;
+
+padding:25px;
+
+text-align:center;
+
+color:white;
+
+font-size:14px;
 
 }
 

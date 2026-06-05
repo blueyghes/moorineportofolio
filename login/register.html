@@ -1,1 +1,112 @@
-<html><head><link rel='stylesheet' href='login.css'></head><body><div class='box'><h2>Register</h2><div id='message'></div><form id='registerForm'><input id='username'><input id='email'><input id='password' type='password'><button>Daftar</button></form></div><script src='js/register.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Register | Moorine Photography</title>
+
+<link rel="stylesheet" href="login.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background-blur"></div>
+
+<div class="login-container">
+
+    <div class="login-left">
+
+        <img src="../assets/logo.png" alt="Logo">
+
+        <h1>Buat Akun</h1>
+
+        <p>
+            Daftarkan akun baru untuk mengakses fitur portfolio.
+        </p>
+
+    </div>
+
+    <div class="login-right">
+
+        <div class="login-card">
+
+            <h2>Daftar Akun</h2>
+
+            <p class="subtitle">
+                Buat akun baru yuk ✨
+            </p>
+
+            <div id="message"></div>
+
+            <form id="registerForm">
+
+                <div class="input-group">
+
+                    <i class="fas fa-user"></i>
+
+                    <input
+                    type="text"
+                    id="username"
+                    placeholder="Username kalcer"
+                    required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <i class="fas fa-envelope"></i>
+
+                    <input
+                    type="email"
+                    id="email"
+                    placeholder="Email kamu"
+                    required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <i class="fas fa-lock"></i>
+
+                    <input
+                    type="password"
+                    id="password"
+                    placeholder="Password yang ngerahasia"
+                    required>
+
+                </div>
+
+                <button
+                type="submit"
+                class="login-submit">
+
+                    Daftar
+
+                </button>
+
+            </form>
+
+            <a href="index.html"
+            class="back-home">
+
+                Sudah punya akun? Loginlah!
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/register.js"></script>
+
+</body>
+</html>

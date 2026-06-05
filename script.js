@@ -197,7 +197,6 @@ backToTop.addEventListener(
 
 });
 
-
 /* =========================
    DARK MODE
 ========================= */
@@ -205,59 +204,63 @@ backToTop.addEventListener(
 const darkButton =
 document.createElement("button");
 
-darkButton.innerHTML =
-"🌙";
+darkButton.innerHTML = "🌙";
 
-darkButton.style.position =
-"fixed";
+darkButton.classList.add("back-to-top");
 
-darkButton.style.bottom =
-"95px";
-
-darkButton.style.right =
-"25px";
-
-darkButton.style.width =
-"55px";
-
-darkButton.style.height =
-"55px";
-
-darkButton.style.border =
-"none";
-
-darkButton.style.borderRadius =
-"50%";
-
-darkButton.style.cursor =
-"pointer";
-
-darkButton.style.zIndex =
-"999";
-
-darkButton.style.fontSize =
-"20px";
-
-darkButton.style.background =
-"#001f54";
-
-darkButton.style.color =
-"white";
+darkButton.style.bottom = "95px";
 
 document.body.appendChild(
 darkButton
 );
 
+/* cek mode sebelumnya */
+
+if(
+localStorage.getItem("darkmode")
+=== "on"
+){
+
+document.body.classList.add(
+"dark-mode"
+);
+
+darkButton.innerHTML = "☀️";
+
+}
+
 darkButton.addEventListener(
 "click",
 () => {
 
-    document.body.classList.toggle(
-        "dark-mode"
-    );
+document.body.classList.toggle(
+"dark-mode"
+);
+
+if(
+document.body.classList.contains(
+"dark-mode"
+)
+){
+
+localStorage.setItem(
+"darkmode",
+"on"
+);
+
+darkButton.innerHTML = "☀️";
+
+}else{
+
+localStorage.removeItem(
+"darkmode"
+);
+
+darkButton.innerHTML = "🌙";
+
+}
 
 });
-
 
 /* =========================
    SMOOTH SCROLL

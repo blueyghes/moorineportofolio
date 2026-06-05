@@ -205,7 +205,7 @@ const darkButton = document.createElement("button");
 
 darkButton.innerHTML = "🌙";
 
-darkButton.classList.add("dark-toogle");
+darkButton.classList.add("dark-toggle");
 
 darkButton.style.bottom = "95px";
 

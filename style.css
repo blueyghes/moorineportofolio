@@ -735,49 +735,6 @@ translateY(0);
 }
 
 
-/* =========================
-   DARK MODE
-========================= */
-
-.dark-mode{
-
-background:#0b1220;
-
-color:white;
-
-}
-
-.dark-mode .portfolio,
-.dark-mode .contact,
-.dark-mode .youtube{
-
-background:#101827;
-
-}
-
-.dark-mode .about,
-.dark-mode .maps{
-
-background:#0f172a;
-
-}
-
-.dark-mode .stat-box,
-.dark-mode .filter-btn,
-.dark-mode .social-links a{
-
-background:#1e293b;
-
-color:white;
-
-}
-
-.dark-mode footer{
-
-background:#020617;
-
-}
-
 
 /* =========================
    RESPONSIVE TABLET

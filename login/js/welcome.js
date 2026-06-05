@@ -5,18 +5,34 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function logout() {
+
         localStorage.removeItem("username");
+
         location.reload();
+
     }
 
-    const user = localStorage.getItem("username");
+    const user =
+    localStorage.getItem("username");
 
     if (user) {
-        document.getElementById("userInfo").innerText = "Halo, " + user;
 
         document.getElementById("authArea").innerHTML = `
-            <button onclick="logout()" class="nav-cta">Logout</button>
+
+            <span id="userInfo">
+                Hi, ${user} 👋
+            </span>
+
+            <button
+            onclick="logout()"
+            class="nav-cta">
+
+                Logout
+
+            </button>
+
         `;
+
     }
 
     window.goLogin = goLogin;

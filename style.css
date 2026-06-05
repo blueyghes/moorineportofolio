@@ -646,6 +646,129 @@ font-size:14px;
 
 }
 
+/* =========================
+   DARK MODE FIX
+========================= */
+
+.dark-mode{
+background:#0b1220;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3{
+color:white;
+}
+
+.dark-mode p{
+color:#d1d5db;
+}
+
+.dark-mode .portfolio,
+.dark-mode .contact,
+.dark-mode .youtube{
+background:#101827;
+}
+
+.dark-mode .about,
+.dark-mode .maps{
+background:#0f172a;
+}
+
+.dark-mode .portfolio h2,
+.dark-mode .youtube h2,
+.dark-mode .maps h2,
+.dark-mode .contact h2,
+.dark-mode .about h2{
+color:white;
+}
+
+.dark-mode .about-content p{
+color:#cbd5e1;
+}
+
+.dark-mode .skills span{
+background:#1e3a8a;
+color:white;
+}
+
+.dark-mode .stat-box{
+background:#1e293b;
+}
+
+.dark-mode .stat-box h2{
+color:#93c5fd;
+}
+
+.dark-mode .stat-box p{
+color:#e5e7eb;
+}
+
+.dark-mode .filter-btn{
+background:#1e293b;
+color:white;
+}
+
+.dark-mode .filter-btn.active{
+background:#3b82f6;
+}
+
+.dark-mode .social-links a{
+background:#1e293b;
+color:white;
+}
+
+.dark-mode .nav-links a{
+color:white;
+}
+
+.dark-mode footer{
+background:#020617;
+}
+
+/* =========================
+   DARK MODE BUTTON
+========================= */
+
+.dark-toggle{
+
+position:fixed;
+
+right:25px;
+bottom:90px;
+
+width:65px;
+height:65px;
+
+border:none;
+border-radius:50%;
+
+background:#001f54;
+color:white;
+
+font-size:28px;
+
+cursor:pointer;
+
+z-index:99999;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+box-shadow:
+0 8px 20px rgba(0,0,0,.25);
+
+transition:.3s;
+
+}
+
+.dark-toggle:hover{
+
+transform:translateY(-5px);
+
+}
+
 
 /* =========================
    LIGHTBOX
@@ -864,129 +987,6 @@ box-shadow:
 .back-to-top.show-btn{
   
 display:block;
-
-}
-
-/* =========================
-   DARK MODE FIX
-========================= */
-
-.dark-mode{
-background:#0b1220;
-}
-
-.dark-mode h1,
-.dark-mode h2,
-.dark-mode h3{
-color:white;
-}
-
-.dark-mode p{
-color:#d1d5db;
-}
-
-.dark-mode .portfolio,
-.dark-mode .contact,
-.dark-mode .youtube{
-background:#101827;
-}
-
-.dark-mode .about,
-.dark-mode .maps{
-background:#0f172a;
-}
-
-.dark-mode .portfolio h2,
-.dark-mode .youtube h2,
-.dark-mode .maps h2,
-.dark-mode .contact h2,
-.dark-mode .about h2{
-color:white;
-}
-
-.dark-mode .about-content p{
-color:#cbd5e1;
-}
-
-.dark-mode .skills span{
-background:#1e3a8a;
-color:white;
-}
-
-.dark-mode .stat-box{
-background:#1e293b;
-}
-
-.dark-mode .stat-box h2{
-color:#93c5fd;
-}
-
-.dark-mode .stat-box p{
-color:#e5e7eb;
-}
-
-.dark-mode .filter-btn{
-background:#1e293b;
-color:white;
-}
-
-.dark-mode .filter-btn.active{
-background:#3b82f6;
-}
-
-.dark-mode .social-links a{
-background:#1e293b;
-color:white;
-}
-
-.dark-mode .nav-links a{
-color:white;
-}
-
-.dark-mode footer{
-background:#020617;
-}
-
-/* =========================
-   DARK MODE BUTTON
-========================= */
-
-.dark-toggle{
-
-position:fixed;
-
-right:25px;
-bottom:90px;
-
-width:65px;
-height:65px;
-
-border:none;
-border-radius:50%;
-
-background:#001f54;
-color:white;
-
-font-size:28px;
-
-cursor:pointer;
-
-z-index:99999;
-
-display:flex;
-justify-content:center;
-align-items:center;
-
-box-shadow:
-0 8px 20px rgba(0,0,0,.25);
-
-transition:.3s;
-
-}
-
-.dark-toggle:hover{
-
-transform:translateY(-5px);
 
 }
 
